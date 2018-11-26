@@ -122,6 +122,11 @@
   height: 67px;
   outline: none;
 }
+.header-btn button:hover {
+  transition: 0.5s;
+  width: 75px;
+  height: 75px;
+}
 .header-btn button i {
   color: #fff;
 }
@@ -142,14 +147,79 @@
   letter-spacing: 2px;
 }
 .awesome-headline span {
-  font-size: 30px;
-  font-family: "Roboto";
+  margin-top: -140px;
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 247px;
   color: rgba(255, 255, 255, 0.18);
   font-weight: bold;
   line-height: 0.852;
   text-align: center;
-  -moz-transform: matrix(8.23928436, 0, 0, 8.23928436, 0, 0);
-  -webkit-transform: matrix(8.23928436, 0, 0, 8.23928436, 0, 0);
-  -ms-transform: matrix(8.23928436, 0, 0, 8.23928436, 0, 0);
   position: absolute;
+  margin-left: -105px;
+  text-transform: uppercase;
+}
+.awesome-content {
+  margin-top: 50px;
+  text-align: center;
+}
+.awesome-content button {
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  border: 0px;
+  background-color: #2e85aa;
+  outline: none;
+}
+.awesome-content button:hover {
+  transition: 0.5s;
+  width: 145px;
+  height: 145px;
+}
+.awesome-content h3 {
+  text-transform: uppercase;
+  font-family: 'got.med', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 25px;
+}
+.awesome-content p {
+  font-family: 'myr.reg', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 20px;
+}
+/* sceytch-section */
+.skeytch-1 {
+  position: absolute;
+}
+.skeytch-1-info {
+  z-index: 999;
+}
+.skeytch-1-img {
+  z-index: 999;
+}
+.skeytch-2 {
+  position: absolute;
+}
+.skeytch-2-info {
+  z-index: 999;
+}
+.skeytch-2-img {
+  z-index: 999;
+}
+.skeytch-img-black {
+  position: absolute;
+  margin-left: -141px;
+  z-index: 1;
+  height: 488px;
+}
+.skeytch-img-color {
+  position: absolute;
+  margin-left: 466px;
+  z-index: 10;
+}
+.skeytch-img-down {
+  margin-top: 252px;
+  margin-left: -141px;
 }

@@ -132,6 +132,11 @@
             width: 67px;
             height: 67px;
             outline: none;
+            &:hover {
+                transition: 0.5s;
+                width: 75px;
+                height: 75px;
+            }
             i {
                 color: #fff;
             }
@@ -158,16 +163,86 @@
             letter-spacing: 2px;
         }
         span {
-            font-size: 30px;
-            font-family: "Roboto";
+            margin-top: -140px;
+            .rob-bold;
+            font-size: 247px;
             color: rgba(255, 255, 255, 0.18);
             font-weight: bold;
             line-height: 0.852;
             text-align: center;
-            -moz-transform: matrix( 8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
-            -webkit-transform: matrix( 8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
-            -ms-transform: matrix( 8.23928436410974, 0, 0, 8.23928436410975, 0, 0);
             position: absolute;
+            margin-left: -105px;
+            text-transform: uppercase;
+        }
+    }
+    &-content {
+        margin-top: 50px;
+        text-align: center;
+        button {
+            height: 135px;
+            width: 135px;
+            border-radius: 50%;
+            border: 0px;
+            background-color: rgb(46, 133, 170);
+            outline: none;
+            &:hover {
+                transition: 0.5s;
+                width: 145px;
+                height: 145px;
+            }
+        }
+        h3 {
+            text-transform: uppercase;
+            font-family: 'got.med', sans-serif;
+            font-size: 18px;
+            color: #fff;
+            margin-top: 25px;
+        }
+        p {
+            font-family: 'myr.reg', sans-serif;
+            font-size: 15px;
+            color: #fff;
+            margin-top: 20px;
+        }
+    }
+}
+
+/* sceytch-section */
+
+.skeytch {
+    &-1 {
+        position: absolute;
+        &-info {
+            z-index: 999;
+        }
+        &-img {
+            z-index: 999;
+        }
+    }
+    &-2 {
+        position: absolute;
+        &-info {
+            z-index: 999;
+        }
+        &-img {
+            z-index: 999;
+        }
+    }
+    &-img {
+        &-black {
+            position: absolute;
+            margin-left: -141px;
+            z-index: 1;
+            height: 488px;
+        }
+        &-color {
+            position: absolute;
+            margin-left: 466px;
+            z-index: 10;
+        }
+        &-down {
+            margin-top: 252px;
+            margin-left: -141px;
         }
     }
 }
