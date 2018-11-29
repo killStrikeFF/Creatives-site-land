@@ -133,7 +133,6 @@
 /* awesome section */
 #awesome {
   background-image: url(/img/awesome/bg-img.png);
-  height: 740px;
 }
 .awesome-headline {
   margin-top: 175px;
@@ -163,6 +162,7 @@
 .awesome-content {
   margin-top: 50px;
   text-align: center;
+  padding: 0px 0px 70px 0px;
 }
 .awesome-content button {
   height: 135px;
@@ -255,9 +255,6 @@
   margin-left: -141px;
 }
 /* blog section */
-#blog {
-  height: 1017px;
-}
 .blog-headline {
   margin-top: 175px;
   text-align: center;
@@ -371,4 +368,125 @@
 .key-right img {
   margin-top: 100px;
   margin-bottom: 95px;
+}
+/* team section */
+.team-headline {
+  text-align: center;
+  margin-top: 140px;
+}
+.team-headline h2 {
+  font-family: 'got.med', sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.team-headline span {
+  margin-top: -132px;
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 247px;
+  color: rgba(34, 34, 34, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  position: absolute;
+  margin-left: -72px;
+  text-transform: uppercase;
+}
+.team-headline p {
+  font-family: 'got.bok', sans-serif;
+  font-size: 30px;
+  margin-top: 130px;
+}
+.team-content {
+  text-align: center;
+  margin-top: 60px;
+}
+.team-content h5 {
+  border: 2px solid #fff;
+  background-color: #fff;
+  font-family: 'got.med', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #11749e;
+}
+.team-content p {
+  border: 2px solid #fff;
+  background-color: #fff;
+  font-family: 'got.med', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* contact section */
+#contact {
+  background-image: url(/img/last-img.png);
+}
+.contact-headline {
+  margin-top: 130px;
+  text-align: center;
+}
+.contact-headline h2 {
+  font-family: 'got.med', sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.contact-headline span {
+  margin-top: -132px;
+  font-family: 'Roboto Condensed';
+  font-size: 247px;
+  color: rgba(255, 255, 255, 0.18);
+  font-weight: 700;
+  line-height: 0.852;
+  text-align: center;
+  position: absolute;
+  margin-left: -72px;
+  text-transform: uppercase;
+}
+.contact-form {
+  text-align: center;
+  margin-top: 150px;
+}
+.contact-form input {
+  width: 357px;
+  margin-left: 10px;
+  height: 48px;
+  background-color: transparent;
+  border: 0.5px solid #fff;
+  color: #fff;
+  padding: 10px;
+  outline: none;
+  font-family: 'got.bok', sans-serif;
+  font-size: 15px;
+}
+.contact-form textarea {
+  margin-left: 9px;
+  margin-top: 30px;
+  width: 1101px;
+  height: 150px;
+  background-color: transparent;
+  border: 0.5px solid #fff;
+  color: #fff;
+  padding: 15px;
+  font-family: 'got.bok', sans-serif;
+  font-size: 15px;
+  outline: none;
+}
+.contact-form button {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  height: 50px;
+  width: 220px;
+  background-color: #11749e;
+  border: 0px;
+  outline: none;
+  font-family: 'got.med', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
 }
